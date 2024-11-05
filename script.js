@@ -55,7 +55,6 @@ function displayTask(tasks) {
     li.classList.add('task');
     li.setAttribute('data-key', task.id);
     li.innerHTML = `
-        <input type="checkbox" class="checkbox" />
               ${task.task}
               <div class="btn-container">
               <button class="btn delete">Delete</button>
